@@ -1,0 +1,29 @@
+div.container { 
+  width: 1000px;
+  margin: 0px auto;
+}
+ul.nav  {
+  display: flex;
+  margin-top: 150px;
+  list-style: none;
+  font-size:  36px;
+  padding: 0px;
+  justify-content: center;
+}
+li.nav-link { 
+  padding: 0px 200px;
+}
+li.nav-link > a {
+  text-decoration: none;
+  transition: 0.25s;
+  color: grey;
+}
+li.nav-link > a.nav-active-link {
+  color: white;
+}
+li.nav-link > a:hover { 
+  color: white;
+}
+div.price-card { 
+  text-align: center;
+}
