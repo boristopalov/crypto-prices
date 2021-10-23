@@ -3,7 +3,7 @@
 This app uses a React front-end and a Node (Express) back-end, and compares buy & sell prices for Bitcoin and Ethereum across
 the Kraken and Coinbase exchanges.
 
-You can visit the Heroku-hosted version of this app at: https://chainalysis-prices.herokuapp.com/
+You can visit the Heroku-hosted version of this app at: https://crypto-pricing.herokuapp.com/
 
 ## Structure
 
@@ -43,7 +43,7 @@ brew install yarn
 ### Cloning from github
 
 ```
-git clone https://github.com/boristopalov/chainalysis/
+git clone https://github.com/boristopalov/crypto-prices/
 ```
 
 
