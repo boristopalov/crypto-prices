@@ -46,18 +46,27 @@ brew install yarn
 git clone https://github.com/boristopalov/crypto-prices/
 ```
 
+After cloning, you should create a .env file in the root of the project and create a `HOST` and a `PORT` variable.
+
+for example:
+```
+HOST=http://localhost
+PORT=5000
+```
 
 ### Commands you can run 
 
-To start the Node server (this will serve the bundled static files used in production). To run the dev environment you should also run the command below:
+To start the Node server (this will serve the bundled static files used in production). The server will run on the port specified in the .env file you created above
 ```
 yarn start
 ```
 
-To run the front-end:
+To run the front-end locally:
 ```
 yarn client
 ```
+
+After running these two commands you should now have the server running 
 
 
 To bundle the React app into static files for production:
