@@ -61,12 +61,14 @@ To start the Node server (this will serve the bundled static files used in produ
 yarn start
 ```
 
-To run the front-end locally:
+Next, you should open a new terminal and run the following command to run the React app locally
+
 ```
 yarn client
 ```
 
-After running these two commands you should now have the server running 
+After running these two commands you should now have the server running on the port you specified in the .env file you created in the step above and load 
+the app in your browser at http://localhost:3000.
 
 
 To bundle the React app into static files for production:
